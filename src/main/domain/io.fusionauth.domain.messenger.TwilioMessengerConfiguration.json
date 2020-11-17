@@ -1,0 +1,31 @@
+{
+  "packageName" : "io.fusionauth.domain.messenger",
+  "type" : "TwilioMessengerConfiguration",
+  "description" : "/**\n * @author Brett Guy\n */\n",
+  "extends" : [ {
+    "type" : "BaseMessengerConfiguration"
+  } ],
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "TwilioMessengerConfiguration"
+    } ]
+  } ],
+  "fields" : {
+    "accountSid" : {
+      "type" : "String"
+    },
+    "authToken" : {
+      "type" : "String"
+    },
+    "fromPhoneNumber" : {
+      "type" : "String"
+    },
+    "messagingServiceSid" : {
+      "type" : "String"
+    },
+    "url" : {
+      "type" : "URI"
+    }
+  }
+}
