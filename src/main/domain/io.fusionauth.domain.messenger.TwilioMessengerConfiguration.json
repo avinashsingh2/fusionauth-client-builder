@@ -12,7 +12,7 @@
     } ]
   } ],
   "fields" : {
-    "accountSid" : {
+    "accountSID" : {
       "type" : "String"
     },
     "authToken" : {

@@ -1,10 +1,10 @@
 {
   "uri": "/api/messenger",
   "comments": [
-    "Retrieves all of the messenger."
+    "Retrieves all of the messengers."
   ],
   "method": "get",
-  "methodName": "retrieveMessenger",
+  "methodName": "retrieveMessengers",
   "successResponse": "MessengerResponse",
   "errorResponse": "Void"
 }
