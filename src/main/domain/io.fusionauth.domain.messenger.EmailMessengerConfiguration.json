@@ -1,7 +1,7 @@
 {
   "packageName" : "io.fusionauth.domain.messenger",
   "type" : "EmailMessengerConfiguration",
-  "description" : "/**\n * @author Brett Guy\n */\n",
+  "description" : "// thinking?\n",
   "extends" : [ {
     "type" : "BaseMessengerConfiguration"
   } ],

@@ -1,7 +1,7 @@
 {
   "packageName" : "io.fusionauth.domain.messenger",
   "type" : "BaseMessengerConfiguration",
-  "description" : "/**\n * @author Brett Guy\n */\n",
+  "description" : "// Do not require a setter for 'type', it is defined by the concrete class and is not mutable\n",
   "implements" : [ {
     "type" : "_InternalJSONColumn"
   } ],
