@@ -1,0 +1,42 @@
+{
+  "packageName" : "io.fusionauth.domain.message.email",
+  "type" : "EmailMessageTemplate",
+  "extends" : [ {
+    "type" : "MessageTemplate"
+  } ],
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "EmailMessageTemplate"
+    } ]
+  } ],
+  "fields" : {
+    "defaultFromName" : {
+      "type" : "String"
+    },
+    "defaultHtmlTemplate" : {
+      "type" : "String"
+    },
+    "defaultSubject" : {
+      "type" : "String"
+    },
+    "defaultTextTemplate" : {
+      "type" : "String"
+    },
+    "fromEmail" : {
+      "type" : "String"
+    },
+    "localizedFromNames" : {
+      "type" : "LocalizedStrings"
+    },
+    "localizedHtmlTemplates" : {
+      "type" : "LocalizedStrings"
+    },
+    "localizedSubjects" : {
+      "type" : "LocalizedStrings"
+    },
+    "localizedTextTemplates" : {
+      "type" : "LocalizedStrings"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "packageName" : "io.fusionauth.domain.message.email",
+  "type" : "EmailMessage",
+  "implements" : [ {
+    "type" : "Message"
+  }, {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "EmailMessage"
+    } ]
+  } ],
+  "fields" : {
+    "attachments" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "Attachment"
+      } ]
+    },
+    "bcc" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "EmailAddress"
+      } ]
+    },
+    "cc" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "EmailAddress"
+      } ]
+    },
+    "from" : {
+      "type" : "EmailAddress"
+    },
+    "html" : {
+      "type" : "String"
+    },
+    "replyTo" : {
+      "type" : "EmailAddress"
+    },
+    "subject" : {
+      "type" : "String"
+    },
+    "text" : {
+      "type" : "String"
+    },
+    "to" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "EmailAddress"
+      } ]
+    }
+  }
+}

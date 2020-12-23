@@ -1,0 +1,5 @@
+{
+  "packageName" : "io.fusionauth.domain.message",
+  "type" : "MessageType",
+  "enum" : [ "SMS", "Email" ]
+}

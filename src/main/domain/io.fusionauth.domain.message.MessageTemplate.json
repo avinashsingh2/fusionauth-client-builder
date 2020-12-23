@@ -3,15 +3,9 @@
   "type" : "MessageTemplate",
   "description" : "/**\n * Stores an message template used to distribute messages;\n *\n * @author Michael Sleevi\n */\n",
   "implements" : [ {
-    "type" : "Buildable",
-    "typeArguments" : [ {
-      "type" : "MessageTemplate"
-    } ]
+    "type" : "_InternalJSONColumn"
   } ],
   "fields" : {
-    "defaultTemplate" : {
-      "type" : "String"
-    },
     "id" : {
       "type" : "UUID"
     },
@@ -21,11 +15,19 @@
     "lastUpdateInstant" : {
       "type" : "ZonedDateTime"
     },
-    "localizedTemplates" : {
-      "type" : "LocalizedStrings"
-    },
     "name" : {
       "type" : "String"
+    },
+    "data" : {
+      "type" : "Map",
+      "typeArguments" : [ {
+        "type" : "String"
+      }, {
+        "type" : "Object"
+      } ]
+    },
+    "type" : {
+      "type" : "MessageType"
     }
   }
 }
