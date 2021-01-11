@@ -1,0 +1,30 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "MultiFactorConfiguration",
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "MultiFactorConfiguration"
+    } ]
+  } ],
+  "fields" : {
+    "templates" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "MultiFactorTypeConfiguration"
+      } ]
+    },
+    "currentTypes" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "MessageType"
+      } ]
+    },
+    "availableTypes" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "MessageType"
+      } ]
+    }
+  }
+}

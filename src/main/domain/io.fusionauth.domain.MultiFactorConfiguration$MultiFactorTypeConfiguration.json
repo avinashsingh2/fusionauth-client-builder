@@ -1,0 +1,21 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "MultiFactorTypeConfiguration",
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "MultiFactorTypeConfiguration"
+    } ]
+  } ],
+  "fields" : {
+    "templateId" : {
+      "type" : "UUID"
+    },
+    "messengerId" : {
+      "type" : "UUID"
+    },
+    "type" : {
+      "type" : "MessageType"
+    }
+  }
+}
