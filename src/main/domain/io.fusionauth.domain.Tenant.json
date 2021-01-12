@@ -73,8 +73,11 @@
     "minimumPasswordAge" : {
       "type" : "MinimumPasswordAge"
     },
-    "multiFactorConfiguration" : {
-      "type" : "MultiFactorConfiguration"
+    "multiFactorConfigurations" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "MultiFactorConfiguration"
+      } ]
     },
     "name" : {
       "type" : "String"

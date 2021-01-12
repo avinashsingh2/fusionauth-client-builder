@@ -8,23 +8,14 @@
     } ]
   } ],
   "fields" : {
-    "templates" : {
-      "type" : "List",
-      "typeArguments" : [ {
-        "type" : "MultiFactorTypeConfiguration"
-      } ]
+    "templateId" : {
+      "type" : "UUID"
     },
-    "currentTypes" : {
-      "type" : "List",
-      "typeArguments" : [ {
-        "type" : "MessageType"
-      } ]
+    "messengerId" : {
+      "type" : "UUID"
     },
-    "availableTypes" : {
-      "type" : "List",
-      "typeArguments" : [ {
-        "type" : "MessageType"
-      } ]
+    "type" : {
+      "type" : "MessageType"
     }
   }
 }
