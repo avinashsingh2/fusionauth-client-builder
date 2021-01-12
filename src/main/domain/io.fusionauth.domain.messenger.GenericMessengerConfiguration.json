@@ -12,6 +12,24 @@
     } ]
   } ],
   "fields" : {
+    "connectTimeout" : {
+      "type" : "int"
+    },
+    "headers" : {
+      "type" : "HTTPHeaders"
+    },
+    "httpAuthenticationPassword" : {
+      "type" : "String"
+    },
+    "httpAuthenticationUsername" : {
+      "type" : "String"
+    },
+    "readTimeout" : {
+      "type" : "int"
+    },
+    "sslCertificate" : {
+      "type" : "String"
+    },
     "url" : {
       "type" : "URI"
     }
