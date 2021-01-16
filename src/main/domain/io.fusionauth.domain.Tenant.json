@@ -70,14 +70,14 @@
     "maximumPasswordAge" : {
       "type" : "MaximumPasswordAge"
     },
+    "messengerConfiguration" : {
+      "type" : "TenantMessengerConfiguration"
+    },
     "minimumPasswordAge" : {
       "type" : "MinimumPasswordAge"
     },
-    "multiFactorConfigurations" : {
-      "type" : "List",
-      "typeArguments" : [ {
-        "type" : "MultiFactorConfiguration"
-      } ]
+    "multiFactorConfiguration" : {
+      "type" : "TenantMultiFactorConfiguration"
     },
     "name" : {
       "type" : "String"

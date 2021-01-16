@@ -11,10 +11,10 @@
     } ]
   } ],
   "fields" : {
-    "textMessage" : {
+    "phoneNumber" : {
       "type" : "String"
     },
-    "phoneNumber" : {
+    "textMessage" : {
       "type" : "String"
     }
   }

@@ -1,6 +1,7 @@
 {
   "packageName" : "io.fusionauth.domain.message.email",
   "type" : "EmailMessageTemplate",
+  "description" : "/**\n * @author Mikey Sleevi\n */\n",
   "extends" : [ {
     "type" : "MessageTemplate"
   } ],

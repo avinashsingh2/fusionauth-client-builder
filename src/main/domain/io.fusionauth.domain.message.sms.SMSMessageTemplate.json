@@ -1,6 +1,7 @@
 {
   "packageName" : "io.fusionauth.domain.message.sms",
   "type" : "SMSMessageTemplate",
+  "description" : "/**\n * @author Michael Sleevi\n */\n",
   "extends" : [ {
     "type" : "MessageTemplate"
   } ],

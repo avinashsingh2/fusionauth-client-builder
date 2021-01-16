@@ -1,0 +1,9 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "ApplicationMultiFactorConfiguration",
+  "description" : "/**\n * @author Daniel DeGroff\n */\n",
+  "extends" : [ {
+    "type" : "TenantMultiFactorConfiguration"
+  } ],
+  "fields" : { }
+}
