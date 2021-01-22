@@ -29,6 +29,9 @@
     "name" : {
       "type" : "String"
     },
+    "transport" : {
+      "type" : "String"
+    },
     "type" : {
       "type" : "MessengerType"
     }
