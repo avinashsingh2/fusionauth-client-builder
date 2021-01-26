@@ -59,6 +59,9 @@
     "oauth2TwoFactor" : {
       "type" : "String"
     },
+    "oauth2TwoFactorOptions" : {
+      "type" : "String"
+    },
     "oauth2Wait" : {
       "type" : "String"
     },

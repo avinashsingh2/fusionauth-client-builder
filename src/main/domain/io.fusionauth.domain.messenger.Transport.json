@@ -1,6 +1,0 @@
-{
-  "packageName" : "io.fusionauth.domain.messenger",
-  "type" : "Transport",
-  "description" : "/**\n * @author Daniel DeGroff\n */\n",
-  "fields" : { }
-}
