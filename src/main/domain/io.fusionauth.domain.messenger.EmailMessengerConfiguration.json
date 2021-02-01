@@ -27,6 +27,9 @@
     "port" : {
       "type" : "int"
     },
+    "properties" : {
+      "type" : "String"
+    },
     "security" : {
       "type" : "EmailSecurityType"
     },
