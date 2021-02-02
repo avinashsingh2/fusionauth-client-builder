@@ -9,6 +9,9 @@
     } ]
   } ],
   "fields" : {
+    "emailMessageTemplateId" : {
+      "type" : "UUID"
+    },
     "smsMessageTemplateId" : {
       "type" : "UUID"
     }

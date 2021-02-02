@@ -8,6 +8,9 @@
     } ]
   } ],
   "fields" : {
+    "accountEdit" : {
+      "type" : "String"
+    },
     "accountIndex" : {
       "type" : "String"
     },
