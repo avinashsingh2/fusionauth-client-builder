@@ -9,11 +9,11 @@
     } ]
   } ],
   "fields" : {
-    "emailMessageTemplateId" : {
-      "type" : "UUID"
+    "email" : {
+      "type" : "MultiFactorEmailTransport"
     },
-    "smsMessageTemplateId" : {
-      "type" : "UUID"
+    "sms" : {
+      "type" : "MultiFactorSMSTransport"
     }
   }
 }

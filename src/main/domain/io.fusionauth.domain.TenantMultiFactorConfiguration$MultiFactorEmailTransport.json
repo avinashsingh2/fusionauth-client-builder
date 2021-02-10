@@ -1,0 +1,12 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "MultiFactorEmailTransport",
+  "extends" : [ {
+    "type" : "Enableable"
+  } ],
+  "fields" : {
+    "templateId" : {
+      "type" : "UUID"
+    }
+  }
+}

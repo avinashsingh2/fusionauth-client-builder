@@ -70,9 +70,6 @@
     "maximumPasswordAge" : {
       "type" : "MaximumPasswordAge"
     },
-    "messengerConfiguration" : {
-      "type" : "TenantMessengerConfiguration"
-    },
     "minimumPasswordAge" : {
       "type" : "MinimumPasswordAge"
     },

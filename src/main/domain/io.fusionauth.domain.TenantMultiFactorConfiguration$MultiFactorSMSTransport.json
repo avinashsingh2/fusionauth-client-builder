@@ -1,0 +1,15 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "MultiFactorSMSTransport",
+  "extends" : [ {
+    "type" : "Enableable"
+  } ],
+  "fields" : {
+    "messengerId" : {
+      "type" : "UUID"
+    },
+    "templateId" : {
+      "type" : "UUID"
+    }
+  }
+}

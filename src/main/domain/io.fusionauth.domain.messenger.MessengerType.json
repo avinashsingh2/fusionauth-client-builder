@@ -2,5 +2,5 @@
   "packageName" : "io.fusionauth.domain.messenger",
   "type" : "MessengerType",
   "description" : "/**\n * @author Brett Guy\n */\n",
-  "enum" : [ "Generic", "Twilio", "Email", "Kafka" ]
+  "enum" : [ "Generic", "Kafka", "Twilio" ]
 }
