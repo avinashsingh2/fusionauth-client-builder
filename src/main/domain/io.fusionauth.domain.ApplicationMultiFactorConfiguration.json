@@ -6,6 +6,9 @@
     "email" : {
       "type" : "MultiFactorEmailTemplate"
     },
+    "required" : {
+      "type" : "boolean"
+    },
     "sms" : {
       "type" : "MultiFactorSMSTemplate"
     }

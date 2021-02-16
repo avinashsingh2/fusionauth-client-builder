@@ -1,0 +1,18 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "MultiFactorTOTP",
+  "extends" : [ {
+    "type" : "Enableable"
+  } ],
+  "fields" : {
+    "algorithm" : {
+      "type" : "TOTPAlgorithm"
+    },
+    "codeLength" : {
+      "type" : "int"
+    },
+    "timeStep" : {
+      "type" : "int"
+    }
+  }
+}

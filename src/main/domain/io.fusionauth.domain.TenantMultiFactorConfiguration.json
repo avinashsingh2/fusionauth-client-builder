@@ -14,6 +14,9 @@
     },
     "sms" : {
       "type" : "MultiFactorSMSTransport"
+    },
+    "totp" : {
+      "type" : "MultiFactorTOTP"
     }
   }
 }

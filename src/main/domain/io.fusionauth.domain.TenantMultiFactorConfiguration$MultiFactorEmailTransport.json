@@ -5,6 +5,9 @@
     "type" : "Enableable"
   } ],
   "fields" : {
+    "sendToUnverified" : {
+      "type" : "boolean"
+    },
     "templateId" : {
       "type" : "UUID"
     }
