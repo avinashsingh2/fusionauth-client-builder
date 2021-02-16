@@ -1,0 +1,9 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "TenantMultiFactorPolicy",
+  "fields" : {
+    "requireEmailVerification" : {
+      "type" : "boolean"
+    }
+  }
+}
